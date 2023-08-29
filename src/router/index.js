@@ -8,7 +8,7 @@ const layouts = layoutRoutes(routes);
 const newRoutes = [
   {
     path: "/login",
-    component: () => import('../views/login/index.vue')
+    component: () => import('../pages/login/index.vue')
   },
   {
     path: "/",

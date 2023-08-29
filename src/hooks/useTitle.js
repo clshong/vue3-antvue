@@ -7,7 +7,7 @@ import { ref, watch, onActivated } from 'vue';
  */
 export function useTitle(newTitle) {
   const value = newTitle ? `${newTitle}-${TITLE_SUFFIX}` : '';
-  const title = ref(value ?? document?.title ?? null);
+  const title = ref(value ?? document.title ?? null);
 
   watch(
     title,

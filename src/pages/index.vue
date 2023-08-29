@@ -2,7 +2,7 @@
   <div></div>
 </template>
 
-<script lang="ts" setup>
+<script  setup>
 import { onMounted } from 'vue';
 import { useToken } from '@/hooks/useToken';
 import { defaultMenus } from '@/menus';

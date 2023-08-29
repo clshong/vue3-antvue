@@ -33,7 +33,7 @@ export function createVitePlugins() {
         'vue-router',
         '@vueuse/core',
       ],
-      dts: 'src/auto-imports.d.ts'
+      // dts: 'src/auto-imports.d.ts'
     }),
     Components({
       resolvers: [
